@@ -1,5 +1,8 @@
 import Header from "./components/Header";
 import Image from "next/image";
+import Snippets from "./components/Snippets";
+import Features from "./components/Features";
+import Access from "./components/Access";
 
 export default function Home() {
   return (
@@ -22,8 +25,10 @@ export default function Home() {
           objectPosition="top"
         />
       </div>
-
       <Header />
+      <Snippets />
+      <Features />
+      <Access />
     </>
   );
 }
