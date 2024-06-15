@@ -11,6 +11,7 @@ export default function Features() {
               height={1000}
               src="/Image/image-computer.png"
               alt=""
+              loading="lazy"
               className="md:absolute top-0 right-[50%]"
             />
           </div>

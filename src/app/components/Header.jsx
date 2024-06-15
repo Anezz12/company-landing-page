@@ -9,6 +9,7 @@ export default function Header() {
           width={200}
           height={300}
           alt=""
+          loading="lazy"
           className="mx-auto my-16"
         />
         <h3 className=" mb-8 text-4xl font-bold text-darkGrayishBlue">

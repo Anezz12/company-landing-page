@@ -2,7 +2,7 @@ export default function Snippets() {
   return (
     <section>
       <div className="max-w-6xl mx-auto text-center px-10 my-20">
-        <h3 className="mb-8 text-4xl font-bold text-darkGrayishBlue">
+        <h3 className="mb-8 text-4xl font-bold text-darkGrayishBlue md:text-5xl">
           Keep track of your snippets
         </h3>
         <p className="max-w-3xl mx-auto mb-10 text-2xl text-grayishBlue">

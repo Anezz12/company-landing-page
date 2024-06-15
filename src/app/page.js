@@ -12,8 +12,10 @@ export default function Home() {
           src="/Image/bg-header-desktop.png"
           alt="Background Image"
           layout="fill"
-          objectFit="contain"
-          objectPosition="top"
+          style={{
+            objectFit: "contain",
+            objectPosition: "top",
+          }}
         />
       </div>
       <div className="absolute inset-0 -z-10  md:hidden block">
