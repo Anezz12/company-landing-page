@@ -3,6 +3,8 @@ import Image from "next/image";
 import Snippets from "./components/Snippets";
 import Features from "./components/Features";
 import Access from "./components/Access";
+import SuperCharge from "./components/Supercharge";
+import References from "./components/References";
 
 export default function Home() {
   return (
@@ -31,6 +33,8 @@ export default function Home() {
       <Snippets />
       <Features />
       <Access />
+      <SuperCharge />
+      <References />
     </>
   );
 }
