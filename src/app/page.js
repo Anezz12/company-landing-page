@@ -5,6 +5,8 @@ import Features from "./components/Features";
 import Access from "./components/Access";
 import SuperCharge from "./components/Supercharge";
 import References from "./components/References";
+import Clipboard from "./components/Clipboard";
+import Footer from "./components/Footer";
 
 export default function Home() {
   return (
@@ -35,6 +37,8 @@ export default function Home() {
       <Access />
       <SuperCharge />
       <References />
+      <Clipboard />
+      <Footer />
     </>
   );
 }
