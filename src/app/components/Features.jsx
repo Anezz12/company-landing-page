@@ -1,9 +1,16 @@
+"use client";
 import Image from "next/image";
+import { motion } from "framer-motion";
 
 export default function Features() {
   return (
     <section>
-      <div className="max-w-6xl mx-auto text-center px-10 my-20">
+      <motion.div
+        className="max-w-6xl mx-auto text-center px-10 my-20"
+        initial={{ opacity: 0, y: 100 }}
+        animate={{ opacity: 1, y: 0 }}
+        transition={{ delay: 0.125 }}
+      >
         <div className=" relative flex flex-col md:flex-row md:space-x-32">
           <div className="md:w-1/2">
             <Image
@@ -46,7 +53,7 @@ export default function Features() {
             </div>
           </div>
         </div>
-      </div>
+      </motion.div>
     </section>
   );
 }
