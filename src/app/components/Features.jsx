@@ -8,7 +8,7 @@ export default function Features() {
           <div className="md:w-1/2">
             <Image
               width={700}
-              height={1000}
+              height={700}
               src="/Image/image-computer.png"
               alt=""
               loading="lazy"

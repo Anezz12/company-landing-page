@@ -14,7 +14,7 @@ export default function SuperCharge() {
           <div className="flex flex-col items-center space-y-5">
             <Image
               width={75}
-              height={300}
+              height={75}
               // layout="fill"
               alt="pict"
               src="./Image/icon-blacklist.svg"
@@ -32,7 +32,7 @@ export default function SuperCharge() {
           <div className="flex flex-col items-center space-y-5">
             <Image
               width={75}
-              height={300}
+              height={75}
               alt="pict"
               src="./Image/icon-text.svg"
               className="mb-6"
@@ -48,7 +48,7 @@ export default function SuperCharge() {
           <div className="flex flex-col items-center space-y-5">
             <Image
               width={75}
-              height={300}
+              height={75}
               alt="pict"
               src="./Image/icon-preview.svg"
               className="mb-6"

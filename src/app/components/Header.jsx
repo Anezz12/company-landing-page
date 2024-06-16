@@ -7,7 +7,7 @@ export default function Header() {
         <Image
           src="./Image/logo.svg"
           width={200}
-          height={300}
+          height={200}
           alt=""
           loading="lazy"
           className="mx-auto my-16"

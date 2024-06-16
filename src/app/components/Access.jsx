@@ -12,7 +12,7 @@ export default function Access() {
         </p>
         <Image
           width={800}
-          height={500}
+          height={800}
           alt="pict"
           src="/Image/image-devices.png"
           className="mx-auto"
